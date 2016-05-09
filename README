@@ -1,0 +1,21 @@
+For reference when grading:
+
+The tall tree and the leaf ball for the tall tree are different meshes, each
+with different material properties. The lumpy tree behind the house uses the
+same material properties as the leaf ball.
+
+The next thing I need to do is make a textured ground and put a texture on the
+house so that it isn't as bare.
+
+All of the models were created using blender (which I learned how to use for
+this project) and are exported as wavefront object files, which are included
+with the sumbission, but not used in the program. The use comes from a python
+script that I wrote to convert wavefront object files to c header files with
+the arrays expected by the program for each type of object. I might clean this
+one up if I have time. 
+
+Most of the code for this project was ripped from lab 6 and modified for my
+use.  I ripped out some of the stuff I don't use. I might consolidate more
+(like, not have an option for flat shading) if I have time. 
+
+Hopefully I remember to update this with my next submission
